@@ -29,9 +29,13 @@
 #print(items)
 #items2 = "34#13#78#45".split("#")
 #print(items2)
-x = int(input("Add Num: "))
-list1 = [2,4,6]
-list2 = [1,3,7]
-if x == 1:
-    list3 = list1 + list2
-    print(list3)
+def reverse(list1):
+    result = []
+    
+    for element in list1:
+        result.insert(0, element)
+        
+    return result
+list1 = [1,2,3,4,5,6]
+list2 = reverse(list1)
+print (list2)
