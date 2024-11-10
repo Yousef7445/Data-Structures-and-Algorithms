@@ -253,11 +253,11 @@ if x==11:
     print (user_list) 
 if x==12:
     twoDimentionList()
-if x==13:
+elif x==13:
     ReadTableDatak()
-if x==14:
+elif x==14:
     SumTable()
-if x==15:
+elif x==15:
     QuizSystem()
 else:
     print("Error! Try Again....")
