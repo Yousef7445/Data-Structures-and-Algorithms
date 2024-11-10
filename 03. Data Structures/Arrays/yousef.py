@@ -29,13 +29,20 @@
 #print(items)
 #items2 = "34#13#78#45".split("#")
 #print(items2)
-def reverse(list1):
-    result = []
+#def reverse(list1):
+ #   result = []
     
-    for element in list1:
-        result.insert(0, element)
-        
-    return result
-list1 = [1,2,3,4,5,6]
-list2 = reverse(list1)
-print (list2)
+#    for element in list1:
+#        result.insert(0, element)
+       
+#    return result
+# list1 = [1,2,3,4,5,6]
+# list2 = reverse(list1)
+# print (list2)
+
+list3 = [2,3,5,7]
+list3.reverse()
+print(list3)
+
+
+
