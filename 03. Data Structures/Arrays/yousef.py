@@ -52,7 +52,21 @@
 #             lst[currentminindex],lst[i] = lst[i],currentmin
     
 #     return lst
-lst = [0,9,1,100,99,85,3]
-lst.sort()
+# lst = [0,9,1,100,99,85,3]
+# lst.sort()
 
-print((lst))
+# print((lst))
+import random
+
+matrix = []
+numOFrows = int(input("Enter the number of rows: "))  # استخدام int بدل eval
+numOFcol = int(input("Enter the number of columns: "))  # استخدام int بدل eval
+
+# بناء المصفوفة
+for row in range(numOFrows):
+    matrix.append([])  # إضافة قائمة فارغة لكل صف
+    for col in range(numOFcol):
+        matrix[row].append(random.randrange(0, 100))  # إضافة قيمة عشوائية بين 0 و 100
+
+# طباعة المصفوفة
+print(matrix)
