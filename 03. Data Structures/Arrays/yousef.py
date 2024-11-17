@@ -57,16 +57,19 @@
 
 # print((lst))
 import random
-
+total = 0
 matrix = []
-numOFrows = int(input("Enter the number of rows: "))  # استخدام int بدل eval
-numOFcol = int(input("Enter the number of columns: "))  # استخدام int بدل eval
+numOFrows = int(input("Enter the number of rows: ")) 
+numOFcol = int(input("Enter the number of columns: "))  
 
-# بناء المصفوفة
+
 for row in range(numOFrows):
-    matrix.append([])  # إضافة قائمة فارغة لكل صف
+    matrix.append([])  
     for col in range(numOFcol):
-        matrix[row].append(random.randrange(0, 100))  # إضافة قيمة عشوائية بين 0 و 100
+        matrix[row].append(random.randrange(0, 100))
+        total += matrix[row][col]
+          
 
-# طباعة المصفوفة
-print(matrix)
+
+print(matrix, "Total is :"+str(total))
+print("Sum for column " + str(col) + "is :"+ str(total))
