@@ -73,3 +73,18 @@ for row in range(numOFrows):
 
 print(matrix, "Total is :"+str(total))
 print("Sum for column " + str(col) + "is :"+ str(total))
+
+t1 = ()
+t2 =(1,3,5)
+print(t2)
+t3 = tuple([2 * x for x in range(1, 5)])
+print(t3)
+t4 = tuple("abac")
+print(t4)
+t5 = t2 + t3 + t4 
+print(t5)
+
+
+for x in range(0,100):
+    x = "hello"
+    print(x)
