@@ -94,8 +94,11 @@ print(s2)
 s3 =  set([2 * x for x in range(1, 10)])
 print(sum(s3))
 s4 = set("abac")
-print(s4)
+print(max(s4))
 s5 = s2 and s3 and s4 
-print(s5)
+print(min(s5))
 
 
+y1 = {1, 2, 4}
+y2 = {1, 4, 5, 2, 6}
+print(y1.issubset(y2))
