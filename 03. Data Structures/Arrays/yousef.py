@@ -104,5 +104,7 @@
 # print(y1.issubset(y2))
 dictionary = {"john":40,"karem":2992}
 dictionary["yousef"] = 50
-del dictionary["john"]
+# del dictionary["john"]
 print(dictionary)
+print("john" in dictionary)
+print("pop" in dictionary)
