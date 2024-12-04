@@ -88,17 +88,21 @@
 # # for x in range(0,100):
 # #     x = "hello"
 # #     print(x)
-s1 = set()
-s2 = {1, 3, 5}
-print(s2)
-s3 =  set([2 * x for x in range(1, 10)])
-print(sum(s3))
-s4 = set("abac")
-print(max(s4))
-s5 = s2 and s3 and s4 
-print(min(s5))
+# s1 = set()
+# s2 = {1, 3, 5}
+# print(s2)
+# s3 =  set([2 * x for x in range(1, 10)])
+# print(sum(s3))
+# s4 = set("abac")
+# print(max(s4))
+# s5 = s2 and s3 and s4 
+# print(min(s5))
 
 
-y1 = {1, 2, 4}
-y2 = {1, 4, 5, 2, 6}
-print(y1.issubset(y2))
+# y1 = {1, 2, 4}
+# y2 = {1, 4, 5, 2, 6}
+# print(y1.issubset(y2))
+dictionary = {"john":40,"karem":2992}
+dictionary["yousef"] = 50
+del dictionary["john"]
+print(dictionary)
